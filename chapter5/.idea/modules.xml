@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter5.iml" filepath="$PROJECT_DIR$/chapter5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/errorhandler/chapter5-errorhandler.iml" filepath="$PROJECT_DIR$/errorhandler/chapter5-errorhandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onexception/chapter5-onexception.iml" filepath="$PROJECT_DIR$/onexception/chapter5-onexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usecase/chapter5-usecase.iml" filepath="$PROJECT_DIR$/usecase/chapter5-usecase.iml" />
+    </modules>
+  </component>
+</project>
