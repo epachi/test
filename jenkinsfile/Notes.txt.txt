@@ -1,0 +1,64 @@
+(438) GOTO 2018 • 40 Jenkins Features & Plugins You Wished You had Known about Before! • Joep Weijers - YouTube
+	https://www.youtube.com/watch?v=3dYM0XUrXHc
+(438) Github Webhook - Integrating Jenkins With Github - Trigger Jenkins Jobs using Github Webhooks - YouTube
+	https://www.youtube.com/watch?v=PhxZamqYJws
+(438) How to create an Automated CI-CD Pipeline in Jenkins - Jenkins Pipeline Tutorial - Intellipaat - YouTube
+	https://www.youtube.com/watch?v=EIlXFtMQJ50
+Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2 - Opensource.com
+	https://opensource.com/article/18/8/devops-jenkins-2
+Blue Ocean is only for Declarative Pipeline
+
+Ultimate Devops Bootcamp by School of Devops® - Udemy - Jenkinsfile example
+	https://www.udemy.com/join/login-popup/?next=/course/ultimate-devops-bootcamp-by-school-of-devops/learn/lecture/11514200#overview
+Ultimate Devops Bootcamp by School of Devops® - Udemy - List of Common plugins
+	https://www.udemy.com/join/login-popup/?next=/course/ultimate-devops-bootcamp-by-school-of-devops/learn/lecture/11289120#overview
+
+End-to-End Multibranch Pipeline Project Creation
+	https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/
+Jenkins Shared Library Tutorial For Beginners- Step by Step Guides
+	https://devopscube.com/jenkins-shared-library-tutorial/
+Using a Jenkinsfile
+	https://jenkins.io/doc/book/pipeline/jenkinsfile/
+Top 10 Best Practices for Jenkins Pipeline Plugin - CloudBees
+	https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin
+Pipeline Syntax
+	https://jenkins.io/doc/book/pipeline/syntax/
+Jenkins shared library- tutorial with examples - Tom Donohue
+	https://tomd.xyz/articles/jenkins-shared-library/
+How to Use the Jenkins Declarative Pipeline - DZone DevOps
+	https://dzone.com/articles/how-to-use-the-jenkins-declarative-pipeline
+A Hacky Hacker’s Guide To Hacking Together Jenkins Scripted Pipelines and Getting Them To Do Things, Part 1
+	https://medium.com/faun/a-hacky-hackers-guide-to-hacking-together-jenkins-scripted-pipelines-and-getting-them-to-do-things-a1e943cb8d11
+continuous integration - Jenkins scripted pipeline or declarative pipeline - Stack Overflow. Specify Scripted Within Declarative pipeline
+	https://stackoverflow.com/questions/43484979/jenkins-scripted-pipeline-or-declarative-pipeline/47682644
+groovy - How to exit from the Jenkins pipeline if a stage sets build fail-unstable status- - Stack Overflow
+	https://stackoverflow.com/questions/51637782/how-to-exit-from-the-jenkins-pipeline-if-a-stage-sets-build-fail-unstable-status
+what is the key difference between Declarative pipeline and scripted pipeliine - Edureka Community
+	https://www.edureka.co/community/54705/difference-between-declarative-pipeline-scripted-pipeliine##targetText=Declarative%20pipeline%20is%20a%20relatively,easier%20to%20read%20and%20write.&targetText=Whereas%2C%20the%20scripted%20pipeline%20is,on%20the%20Jenkins%20UI%20instance.
+Controlling the Flow with Stage, Lock, and Milestone
+	https://jenkins.io/blog/2016/10/16/stage-lock-milestone/
+java - Why does stash-unstash not work in this Jenkinsfile- - Stack Overflow
+	https://stackoverflow.com/questions/47553437/why-does-stash-unstash-not-work-in-this-jenkinsfile
+(438) Jenkins How to Write Jenkinsfile Pipeline As Code Part 1 - YouTube
+	https://www.youtube.com/watch?v=_o42ZCkCJb4
+Some Jenkinsfile examples
+	https://gist.github.com/merikan/228cdb1893fca91f0663bab7b095757c
+
+Shared Libraries:
+-----------------
+(438) Concise Pipelines with Shared Libraries - YouTube
+	https://www.youtube.com/watch?v=FXoW3HP1ebk
+(438) Jenkins Shared Libraries - YouTube
+	https://www.youtube.com/watch?v=xgdn5BudXZk
+(438) Jenkins World 2017- Codifying the Build and Release Process with a Jenkins Pipeline Shared Library - YouTube
+	https://www.youtube.com/watch?v=lzzx59kLW9w
+bitwiseman-jenkins-pipeline-shared
+	https://github.com/bitwiseman/jenkins-pipeline-shared/tree/master/vars
+How To Create Jenkins Shared Library For Common Pipeline Functionality
+	https://devopscube.com/create-jenkins-shared-library/
+Jenkins- Multibranch Pipeline - Knoldus Blogs DevOps %jenkins % Pipeline
+	https://blog.knoldus.com/jenkins-multibranch-pipeline/
+Jenkins shared library- tutorial with examples - Tom Donohue CAN USE SUBVERSION
+	https://tomd.xyz/articles/jenkins-shared-library/
+The new things arriving in Declarative Pipeline!
+	https://jenkins.io/blog/2018/04/09/whats-in-declarative/

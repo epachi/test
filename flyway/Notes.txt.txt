@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=ovG1wgEqE10
+https://www.youtube.com/watch?v=_7BuLOCRJc4
+https://blog.trifork.com/2014/12/09/integrating-flywaydb-in-a-spring-framework-application/
