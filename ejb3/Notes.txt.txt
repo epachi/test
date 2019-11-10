@@ -1,0 +1,8 @@
+(438) Coding Example of an EJB in JavaEE Part 1 - YouTube
+	https://www.youtube.com/watch?v=tb1f3s29lOM&list=PLhPyEFL5u-i0GvokUBeS0t-rF3--tPD7q&index=27&t=0s
+(438) Coding Example of an EJB in JavaEE Part 2 - YouTube
+	https://www.youtube.com/watch?v=nlHBi4dLClM&list=PLhPyEFL5u-i0GvokUBeS0t-rF3--tPD7q&index=28&t=0s
+(438) What are EJBs Enterprise Java Beans- - YouTube
+	https://www.youtube.com/watch?v=utANrHfAh28
+Java EE Timer Scheduled events - YouTube
+	https://www.youtube.com/watch?v=LrXBZJSRX3A&list=PLhPyEFL5u-i0GvokUBeS0t-rF3--tPD7q&index=29&t=0s

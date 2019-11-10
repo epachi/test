@@ -1,3 +1,6 @@
-https://www.youtube.com/watch?v=ovG1wgEqE10
-https://www.youtube.com/watch?v=_7BuLOCRJc4
-https://blog.trifork.com/2014/12/09/integrating-flywaydb-in-a-spring-framework-application/
+(438) Getting Started with Flyway & Version-Based Migration - YouTube
+	https://www.youtube.com/watch?v=ovG1wgEqE10
+(438) SpringBoot and Database migrations with FlyWay - YouTube
+	https://www.youtube.com/watch?v=_7BuLOCRJc4
+Integrating Flyway In A Spring Framework Application - Trifork Blog
+	https://blog.trifork.com/2014/12/09/integrating-flywaydb-in-a-spring-framework-application/

@@ -1,3 +1,19 @@
+(438) How to query and transform XML data into HTML using XQuery in Stylus Studio X15 (Part 2) - YouTube
+	https://www.youtube.com/watch?v=PKzrCvJPzBo
+(438) Seminar on XML Data and XQUERY in SQL Server - YouTube
+	https://www.youtube.com/watch?v=LphKttWHqAo
+Learn XQuery in 10 Minutes, by Dr. Michael Kay - An XQuery Tutorial
+	http://www.stylusstudio.com/xquery-primer.html
+XQuery - Training Material
+	https://training-course-material.com/training/XQuery
+XQuery 3 Training - Altova
+	https://www.altova.com/training/XQuery3
+XQuery Tutorial
+	https://www.w3schools.com/xml/xquery_intro.asp
+XQuery with BaseX
+	https://www.youtube.com/watch?v=E-1TMuWhkio
+
+
 http://www.xqueryfunctions.com/xq/alpha.html
 
 http://www.xqueryfunctions.com/

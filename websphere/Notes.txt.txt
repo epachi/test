@@ -1,0 +1,20 @@
+[How-to] Deploy Spring Boot 2.x apps on WebSphere 8.5.5
+	https://medium.com/@james.tran/how-to-deploy-spring-boot-2-x-apps-on-websphere-8-5-5-d0b2e257f606
+About WebSphere Liberty - WASdev
+	https://developer.ibm.com/wasdev/websphere-liberty/
+How To Install Jenkins on Ubuntu 18.04 - Linuxize
+	https://linuxize.com/post/how-to-install-jenkins-on-ubuntu-18-04/
+IBM's WebSphere Liberty update supports Spring Boot like a dream - JAXenter
+	https://jaxenter.com/ibm-liberty-update-146472.html
+Issues in deploying spring boot application in Websphere - Google Search
+	https://www.google.com/search?q=Issues+in+deploying+spring+boot+application+in+Websphere&rlz=1C1CHBF_en-GBAU870AU870&oq=Issues+in+deploying+spring+boot+application+in+Websphere&aqs=chrome..69i57j33l5.34023j1j8&sourceid=chrome&ie=UTF-8
+openjdk - Switch between multiple java versions - Ask Ubuntu
+	https://askubuntu.com/questions/740757/switch-between-multiple-java-versions
+
+Websphere JDK compatibility
+===========================
+(438) WebSphere Application Server Administration - YouTube
+	https://www.youtube.com/playlist?list=PLJIqXVV4K5LVgk7CJ4RUl9LkGa2BJjBz1
+
+Java SE 8 in WebSphere Application Server V8.5
+	https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/covr_javase8.html
