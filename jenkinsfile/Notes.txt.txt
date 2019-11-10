@@ -1,4 +1,4 @@
-(438) GOTO 2018 • 40 Jenkins Features & Plugins You Wished You had Known about Before! • Joep Weijers - YouTube
+﻿(438) GOTO 2018 • 40 Jenkins Features & Plugins You Wished You had Known about Before! • Joep Weijers - YouTube
 	https://www.youtube.com/watch?v=3dYM0XUrXHc
 (438) Github Webhook - Integrating Jenkins With Github - Trigger Jenkins Jobs using Github Webhooks - YouTube
 	https://www.youtube.com/watch?v=PhxZamqYJws
@@ -12,19 +12,16 @@ Ultimate Devops Bootcamp by School of Devops® - Udemy - Jenkinsfile example
 	https://www.udemy.com/join/login-popup/?next=/course/ultimate-devops-bootcamp-by-school-of-devops/learn/lecture/11514200#overview
 Ultimate Devops Bootcamp by School of Devops® - Udemy - List of Common plugins
 	https://www.udemy.com/join/login-popup/?next=/course/ultimate-devops-bootcamp-by-school-of-devops/learn/lecture/11289120#overview
-
+Jenkinsfile example
+	https://github.com/jleetutorial/maven-project/blob/v0.4/Jenkinsfile
 End-to-End Multibranch Pipeline Project Creation
 	https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/
-Jenkins Shared Library Tutorial For Beginners- Step by Step Guides
-	https://devopscube.com/jenkins-shared-library-tutorial/
 Using a Jenkinsfile
 	https://jenkins.io/doc/book/pipeline/jenkinsfile/
 Top 10 Best Practices for Jenkins Pipeline Plugin - CloudBees
 	https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin
 Pipeline Syntax
 	https://jenkins.io/doc/book/pipeline/syntax/
-Jenkins shared library- tutorial with examples - Tom Donohue
-	https://tomd.xyz/articles/jenkins-shared-library/
 How to Use the Jenkins Declarative Pipeline - DZone DevOps
 	https://dzone.com/articles/how-to-use-the-jenkins-declarative-pipeline
 A Hacky Hacker’s Guide To Hacking Together Jenkins Scripted Pipelines and Getting Them To Do Things, Part 1
@@ -46,6 +43,10 @@ Some Jenkinsfile examples
 
 Shared Libraries:
 -----------------
+Jenkins Shared Library Tutorial For Beginners- Step by Step Guides
+	https://devopscube.com/jenkins-shared-library-tutorial/
+Jenkins shared library- tutorial with examples - Tom Donohue
+	https://tomd.xyz/articles/jenkins-shared-library/
 (438) Concise Pipelines with Shared Libraries - YouTube
 	https://www.youtube.com/watch?v=FXoW3HP1ebk
 (438) Jenkins Shared Libraries - YouTube
