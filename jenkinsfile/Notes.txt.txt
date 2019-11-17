@@ -6,22 +6,25 @@
 	https://www.youtube.com/watch?v=EIlXFtMQJ50
 Introduction to writing pipelines-as-code and implementing DevOps with Jenkins 2 - Opensource.com
 	https://opensource.com/article/18/8/devops-jenkins-2
+How to create Jenkins Pipeline with an Example | Pipeline as Code | Tech Primers
+	https://www.youtube.com/watch?v=s73nhwYBtzE
 Blue Ocean is only for Declarative Pipeline
 
 Ultimate Devops Bootcamp by School of Devops® - Udemy - Jenkinsfile example
 	https://www.udemy.com/join/login-popup/?next=/course/ultimate-devops-bootcamp-by-school-of-devops/learn/lecture/11514200#overview
 Ultimate Devops Bootcamp by School of Devops® - Udemy - List of Common plugins
 	https://www.udemy.com/join/login-popup/?next=/course/ultimate-devops-bootcamp-by-school-of-devops/learn/lecture/11289120#overview
-Jenkinsfile example
-	https://github.com/jleetutorial/maven-project/blob/v0.4/Jenkinsfile
+
 End-to-End Multibranch Pipeline Project Creation
 	https://jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/
+
 Using a Jenkinsfile
 	https://jenkins.io/doc/book/pipeline/jenkinsfile/
 Top 10 Best Practices for Jenkins Pipeline Plugin - CloudBees
 	https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin
 Pipeline Syntax
 	https://jenkins.io/doc/book/pipeline/syntax/
+
 How to Use the Jenkins Declarative Pipeline - DZone DevOps
 	https://dzone.com/articles/how-to-use-the-jenkins-declarative-pipeline
 A Hacky Hacker’s Guide To Hacking Together Jenkins Scripted Pipelines and Getting Them To Do Things, Part 1
@@ -40,18 +43,21 @@ java - Why does stash-unstash not work in this Jenkinsfile- - Stack Overflow
 	https://www.youtube.com/watch?v=_o42ZCkCJb4
 Some Jenkinsfile examples
 	https://gist.github.com/merikan/228cdb1893fca91f0663bab7b095757c
-Jenkins World 2017: Multi-Branch Pipelines at Capital One For Fun and Profit 
-	https://www.youtube.com/watch?v=kZ1XPFr2nwI
-Jenkins- Multibranch Pipeline - Knoldus Blogs DevOps %jenkins % Pipeline	-----------------
-	https://blog.knoldus.com/jenkins-multibranch-pipeline/
-The new things arriving in Declarative Pipeline!				-----------------
-	https://jenkins.io/blog/2018/04/09/whats-in-declarative/
+Jenkinsfile example
+        https://github.com/jleetutorial/maven-project/blob/v0.4/Jenkinsfile
+Jenkins World 2017: Multi-Branch Pipelines at Capital One For Fun and Profit
+        https://www.youtube.com/watch?v=kZ1XPFr2nwI
+Jenkins- Multibranch Pipeline - Knoldus Blogs DevOps %jenkins % Pipeline       -----------------
+        https://blog.knoldus.com/jenkins-multibranch-pipeline/
+The new things arriving in Declarative Pipeline!                               -----------------
+        https://jenkins.io/blog/2018/04/09/whats-in-declarative/
+
 
 Shared Libraries:
 -----------------
 Jenkins Shared Library Tutorial For Beginners- Step by Step Guides
 	https://devopscube.com/jenkins-shared-library-tutorial/
-Jenkins shared library- tutorial with examples - Tom Donohue
+Jenkins shared library- tutorial with examples - Tom Donohue CAN USE SUBVERSION
 	https://tomd.xyz/articles/jenkins-shared-library/
 How To Create Jenkins Shared Library For Common Pipeline Functionality
 	https://devopscube.com/create-jenkins-shared-library/
@@ -60,7 +66,7 @@ How To Create Jenkins Shared Library For Common Pipeline Functionality
 (438) Jenkins Shared Libraries - YouTube
 	https://www.youtube.com/watch?v=xgdn5BudXZk
 (438) Jenkins World 2017- Codifying the Build and Release Process with a Jenkins Pipeline Shared Library - YouTube
-	https://www.youtube.com/watch?v=lzzx59kLW9w 			<============= Similar scenario
-	https://github.com/alvin-huang-jenkinsworld-org
+       https://www.youtube.com/watch?v=lzzx59kLW9w                     <============= Similar scenario
+       https://github.com/alvin-huang-jenkinsworld-org
 bitwiseman-jenkins-pipeline-shared
 	https://github.com/bitwiseman/jenkins-pipeline-shared/tree/master/vars
