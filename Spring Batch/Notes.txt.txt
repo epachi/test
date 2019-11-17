@@ -1,2 +1,21 @@
 Old style Spring Batch Read an XML File and Write to Oracle Database - DZone Database
 	https://dzone.com/articles/spring-batch-read-an-xml-file-and-write-to-oracle?edition=528293&utm_source=Zone%20Newsletter&utm_medium=email&utm_campaign=database%202019-11-01
+
+Youtube:
+	(438) What is Spring Batch- - Spring Batch Architecture - Tech Primers - YouTube
+		https://www.youtube.com/watch?v=16bq_N55f_s
+		(GITHUB) https://github.com/TechPrimers/spring-batch-example-1
+	(438) Spring Batch in Spring Boot - CSV to Database - Tech Primers - YouTube
+		https://www.youtube.com/watch?v=1XEX-u12i0A
+		
+ETL in Java Spring Batch vs Apache Spark Benchmarking - Stack Overflow
+	https://stackoverflow.com/questions/53689531/etl-in-java-spring-batch-vs-apache-spark-benchmarking
+
+Pro Spring 5, Chapter 18
+
+baeldung
+	Introduction to Spring Batch - Baeldung
+		https://www.baeldung.com/introduction-to-spring-batch
+	Testing a Spring Batch Job - Baeldung
+		https://www.baeldung.com/spring-batch-testing-job
+	(GITHUB) https://github.com/eugenp/tutorials/tree/master/spring-batch
