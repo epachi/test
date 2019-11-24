@@ -1,0 +1,3 @@
+multibranch pipeline
+timestamp plugin and put timestamp at the timestamp block under step or option block(global)...
+shared library
