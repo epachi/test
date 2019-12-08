@@ -1,4 +1,6 @@
-﻿github.com/pipelineascodecourse
+﻿https://github.com/jleetutorial/maven-project/blob/v0.3/Jenkinsfile
+github.com/pipelineascodecourse
+https://www.youtube.com/watch?v=Z3S2gMBUkBo
 
 (438) GOTO 2018 • 40 Jenkins Features & Plugins You Wished You had Known about Before! • Joep Weijers - YouTube
 	https://www.youtube.com/watch?v=3dYM0XUrXHc
