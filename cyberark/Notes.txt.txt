@@ -3,3 +3,5 @@ https://www.youtube.com/watch?v=W6KPmc65kcc&list=PLinuRwpnsHaeDRI3th5GVGsS6pGJwE
 
 Revised - Privileged Accounts or Identity Management(PAM or PIM) Solutions and CyberArk Offerings
 https://www.youtube.com/watch?v=SU9uwyZQptw
+
+Cyberark Application Identity Manager(AIM) removes embedded passwords and data source credentials from scripts, application code, configuration files and SSH keys from servers, making them inaccessible to attackers and malicious insiders and securely store and rotate these application passwords and SSH keys automatically based on policy, without impacting the application performance or causing downtime. It also allows request to credentials based on path, hash(signature), OS user and more, ensuring only authorized applications can access required credentials.
