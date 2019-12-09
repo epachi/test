@@ -1,1 +1,5 @@
+CyberArk Leveraging CyberArk for Traditional and Ephemeral Application Secrets Management
 https://www.youtube.com/watch?v=W6KPmc65kcc&list=PLinuRwpnsHaeDRI3th5GVGsS6pGJwE5yH&index=4
+
+Revised - Privileged Accounts or Identity Management(PAM or PIM) Solutions and CyberArk Offerings
+https://www.youtube.com/watch?v=SU9uwyZQptw
