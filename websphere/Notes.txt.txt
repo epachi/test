@@ -18,3 +18,8 @@ Websphere JDK compatibility
 
 Java SE 8 in WebSphere Application Server V8.5
 	https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/covr_javase8.html
+
+
+Websphere MQ MDB:
+=================
+https://www.ibm.com/support/pages/using-mdb-jms-message-selectors-websphere-mq-v7x-and-websphere-application-server-v7-and-v8xhttps://www.ibm.com/support/pages/using-mdb-jms-message-selectors-websphere-mq-v7x-and-websphere-application-server-v7-and-v8x
