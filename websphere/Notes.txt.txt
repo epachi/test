@@ -1,3 +1,7 @@
+WAS7 Part 5 - Installing WebSphere MQ and Configuring MQ in WAS
+	https://www.youtube.com/watch?v=nnIeWdalpZ4
+JMS Queue creation in WebSphere Application Server
+	https://www.youtube.com/watch?v=uCaly04a_lk
 [How-to] Deploy Spring Boot 2.x apps on WebSphere 8.5.5
 	https://medium.com/@james.tran/how-to-deploy-spring-boot-2-x-apps-on-websphere-8-5-5-d0b2e257f606
 About WebSphere Liberty - WASdev
