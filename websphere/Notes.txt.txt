@@ -1,3 +1,5 @@
+Sending messages between IBM MQ and WAS (with MDB)
+	https://www.youtube.com/watch?v=n12gnO4plBE
 WAS7 Part 5 - Installing WebSphere MQ and Configuring MQ in WAS
 	https://www.youtube.com/watch?v=nnIeWdalpZ4
 JMS Queue creation in WebSphere Application Server
