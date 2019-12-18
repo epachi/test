@@ -1,3 +1,7 @@
+
+https://www.journaldev.com/17053/spring-jdbctemplate-example
+https://docs.spring.io/spring-data/jdbc/old-docs/2.0.0.M1/reference/html/orcl.datasource.html
+
 https://stackoverflow.com/questions/13388045/oracle-data-source-configuration-for-spring
 
 https://docs.oracle.com/database/121/DBSEG/asossl.htm#DBSEG9676
