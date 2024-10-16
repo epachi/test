@@ -1,0 +1,28 @@
+Connect to a database:
+psql -d database_name -U user_name
+List all databases:
+\l or \list
+Connect to a different database:
+\c database_name
+List all schemas:
+\dn
+List all tables in the current schema:
+\dt
+List all tables in a specific schema:
+\dt schema_name.*
+Describe a table structure:
+\d table_name
+List all views:
+\dv
+List all functions:
+\df
+List all users and their roles:
+\du
+Show current schema search path:
+SHOW search_path;
+Change schema:
+SET search_path TO schema_name;
+Execute a SQL file:
+\i filename.sql
+Quit psql:
+\q
