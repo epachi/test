@@ -1,3 +1,9 @@
+powershell -Command "Start-Process 'powershell' -ArgumentList '-NoExit', '-Command', 'Add-Type -AssemblyName System.Net.HttpListener; $listener = New-Object System.Net.HttpListener; $listener.Prefixes.Add('http://*:8080/'); $listener.Start(); Write-Output ''Listening at http://*:8080/''; while ($listener.IsListening) { $context = $listener.GetContext(); $response = $context.Response; $response.ContentType = 'text/html'; $response.OutputStream.Write([System.Text.Encoding]::UTF8.GetBytes('<html><body><h1>Hello, World!</h1></body></html>'), 0, [System.Text.Encoding]::UTF8.GetByteCount('<html><body><h1>Hello, World!</h1></body></html>')); $response.Close(); }'"
+
+
+sh
+powershell -Command 
+
 Connect to a database:
 psql -d database_name -U user_name
 List all databases:
