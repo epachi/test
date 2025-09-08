@@ -1,0 +1,42 @@
+Looking at this problem, I can see it's asking for the number of ways to climb a ladder with N rungs, where you can take 1 or 2 steps at a time. This is essentially the Fibonacci sequence!
+The pattern is:
+
+F(1) = 1 way (just step 1)
+F(2) = 2 ways (1+1 or 2)
+F(3) = 3 ways (1+1+1, 1+2, 2+1)
+F(4) = 5 ways (as shown in the example)
+F(5) = 8 ways (as shown in the example)
+
+So F(n) = F(n-1) + F(n-2) for n ≥ 3.
+The key optimization here is that we need to return results modulo 2^B[i], and since we have multiple queries,
+we should precompute the Fibonacci numbers modulo the largest possible modulus (2^30) to handle all queries efficiently.Ladder Climbing Ways CounterCode class Solution {
+    public int[] solution(int[] A, int[] B) {
+        int L = A.length;
+        int[] result = new int[L];
+
+        // Find the maximum N value to precompute Fibonacci numbers up to that point
+        int maxN = 0;
+        foThe solution works as follows:
+Key Insights:
+
+Fibonacci Pattern: The number of ways to climb N rungs follows the Fibonacci sequence where F(1)=1, F(2)=2, and F(n) = F(n-1) + F(n-2)
+Precomputation: Since we have multiple queries, we precompute all Fibonacci numbers up to the maximum N value
+Modular Arithmetic: We compute Fibonacci numbers modulo 2^30 (the largest possible modulus) to handle overflow and then apply the specific modulus 2^B[i] for each query
+
+Algorithm Steps:
+
+Find the maximum N value in array A to determine how many Fibonacci numbers to precompute
+Calculate Fibonacci numbers up to max N using modulo 2^30 to prevent overflow
+For each query (A[i], B[i]), return the precomputed F(A[i]) modulo 2^B[i]
+
+Time Complexity: O(max(A) + L) where L is the length of arrays
+Space Complexity: O(max(A)) for storing precomputed Fibonacci numbers
+Example Walkthrough:
+
+For N=4: F(4) = 5, and 5 mod 2^3 = 5 mod 8 = 5
+For N=4: F(4) = 5, and 5 mod 2^2 = 5 mod 4 = 1
+For N=5: F(5) = 8, and 8 mod 2^4 = 8 mod 16 = 8
+For N=5: F(5) = 8, and 8 mod 2^3 = 8 mod 8 = 0
+For N=1: F(1) = 1, and 1 mod 2^1 = 1 mod 2 = 1
+
+This gives us the expected result [5, 1, 8, 0, 1].

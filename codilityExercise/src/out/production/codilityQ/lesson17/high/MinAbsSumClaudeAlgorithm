@@ -1,0 +1,49 @@
+Looking at this problem, I need to find a sequence S of +1 and -1 values that minimizes the absolute value of the sum A[i] * S[i].
+This is essentially asking: given an array A, how can I assign + or - signs to each element to get a sum as close to 0 as possible?
+This is a classic subset sum problem variant. I can think of it as: which elements should I keep positive (+1) and which should I make negative (-1)
+to minimize the absolute sum?
+Let me analyze the approach:
+
+Calculate the total sum of absolute values
+This becomes a problem of finding a subset that sums as close as possible to half the total sum
+Use dynamic programming to solve this efficiently
+Minimum val(A,S) SolutionCode class Solution {
+    public int solution(int[] A) {
+        if (A.length == 0) {
+            return 0;
+        }
+
+        // Calculate sum of absolute values
+        int totalSum = 0;
+        for (int num : A) {
+            totalSum += Math.aThe solution works as follows:
+Key Insights:
+
+Each element A[i] can be multiplied by either +1 or -1
+We want to minimize |∑(A[i] * S[i])|
+This is equivalent to partitioning elements into two groups: positive and negative
+We want |sum_positive - sum_negative| to be minimal
+
+Algorithm:
+
+Calculate the total sum of absolute values of all elements
+Use dynamic programming to find if we can achieve any sum from 0 to totalSum/2
+Find the largest achievable sum ≤ totalSum/2
+The minimum possible value is |totalSum - 2 * closestSum|
+
+Why this works:
+
+If we can achieve sum S with some subset, then sum_positive = S and sum_negative = totalSum - S
+The difference is |S - (totalSum - S)| = |2S - totalSum|
+To minimize this, we want S as close as possible to totalSum/2
+
+Time Complexity: O(N * sum) where sum is the total of absolute values
+Space Complexity: O(sum)
+For the example A = [1, 5, 2, -2]:
+
+Total sum of absolute values = 1 + 5 + 2 + 2 = 10
+Target = 5
+We can achieve sum 5 with elements {5} or {1, 2, 2}
+Result = |10 - 2*5| = 0
+
+The solution handles all edge cases including empty arrays and negative numbers correctly.

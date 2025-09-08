@@ -1,0 +1,50 @@
+Looking at this problem, I need to find the minimum number of jumps for a frog to cross a river using Fibonacci-length jumps.
+This is a classic dynamic programming problem that can be solved efficiently using BFS (Breadth-First Search).
+Let me break down the approach:
+
+Generate Fibonacci numbers up to the maximum possible jump distance (N+1)
+Use BFS to find the shortest path from position -1 to position N
+For each position, try all possible Fibonacci jumps that land on valid positions (leaves or the target bank)
+Frog River Crossing with Fibonacci JumpsCode import java.util.*;
+
+class Solution {
+    public int solution(int[] A) {
+        int N = A.length;
+
+        // Generate Fibonacci numbers up to N+1 (maximum possible jump distance)
+        List<Integer> fibs = generateFibonacci(N + 1);
+      The key aspects of this solution:
+
+Fibonacci Generation: I generate all Fibonacci numbers up to N+1 (the maximum possible jump distance). Note that F(0)=0 is excluded
+since a jump of 0 distance doesn't make sense.
+BFS Approach: I use BFS to find the minimum number of jumps because BFS guarantees that the first time we reach the destination,
+it's with the minimum number of steps.
+State Representation: Each state in the queue contains [position, jumps] where:
+
+position: current position of the frog (-1 to N)
+jumps: number of jumps taken to reach this position
+
+
+Valid Moves: From any position, the frog can jump by any Fibonacci number distance, but can only land on:
+
+Positions with leaves (A[i] = 1)
+The destination bank (position N)
+
+
+Optimization: I use a visited set to avoid revisiting the same position, which prevents infinite loops and improves efficiency.
+
+Time Complexity: O(N × F) where F is the number of Fibonacci numbers ≤ N. Since Fibonacci numbers grow exponentially,
+F is approximately O(log N), making the overall complexity O(N log N).
+Space Complexity: O(N) for the visited set and queue.
+For the given example:
+
+Array: [0,0,0,1,1,0,1,0,0,0,0] (N=11)
+Fibonacci numbers ≤ 11: [1, 1, 2, 3, 5, 8]
+Optimal path: -1 → 4 (jump F(5)=5) → 6 (jump F(3)=2) → 11 (jump F(5)=5)
+Result: 3 jumps
+
+The solution handles edge cases like:
+
+Empty array (return 0 since we're already at the destination)
+Direct jump possible (can jump F(k) = N directly from -1 to N)
+Impossible cases (no valid path exists)
