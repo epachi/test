@@ -1,4 +1,5 @@
 package myLesson1;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -6,6 +7,7 @@ public class QuickSort {
 
     /**
      * Main quicksort method - sorts the entire array
+     *
      * @param arr the array to be sorted
      */
     public static void quickSort(int[] arr) {
@@ -17,8 +19,9 @@ public class QuickSort {
 
     /**
      * Recursive quicksort implementation
-     * @param arr the array to be sorted
-     * @param low starting index
+     *
+     * @param arr  the array to be sorted
+     * @param low  starting index
      * @param high ending index
      */
     private static void quickSort(int[] arr, int low, int high) {
@@ -34,8 +37,9 @@ public class QuickSort {
 
     /**
      * Partition method using Lomuto partition scheme
-     * @param arr the array to partition
-     * @param low starting index
+     *
+     * @param arr  the array to partition
+     * @param low  starting index
      * @param high ending index
      * @return the final position of the pivot element
      */
@@ -61,9 +65,10 @@ public class QuickSort {
 
     /**
      * Utility method to swap two elements in an array
+     *
      * @param arr the array
-     * @param i first index
-     * @param j second index
+     * @param i   first index
+     * @param j   second index
      */
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
@@ -73,6 +78,7 @@ public class QuickSort {
 
     /**
      * Alternative implementation using randomized pivot for better average performance
+     *
      * @param arr the array to be sorted
      */
     public static void quickSortRandomized(int[] arr) {
@@ -216,6 +222,7 @@ public class QuickSort {
 
     /**
      * Utility method to check if an array is sorted
+     *
      * @param arr the array to check
      * @return true if sorted, false otherwise
      */
