@@ -1,0 +1,14 @@
+In flyway script, should I use create sequence or create sequence if not exist?
+
+21:29
+CREATE SEQUENCE IF NOT EXISTS in Flyway
+Use CREATE SEQUENCE IF NOT EXISTS in most cases.
+
+Here's why:
+
+Flyway versioned migrations (V1__, V2__, etc.) run exactly once, so technically CREATE SEQUENCE is safe — Flyway tracks what's been applied and won't re-run it. However, IF NOT EXISTS is still the better practice because:
+
+Repeatable migrations (R__ prefix) run whenever their checksum changes — here IF NOT EXISTS is essential to avoid errors on re-run.
+Resilience during failures — if a migration partially fails and is re-attempted after fixing (in a non-transactional DB like PostgreSQL with DDL outside a transaction), the sequence may already exist.
+Team/multi-environment safety — if someone manually created the sequence in a specific environment (e.g. prod hotfix), your migration won't break.
+Idempotency is a good habit — keeps scripts consistent with modern SQL best practices.
